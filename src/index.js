@@ -1,10 +1,10 @@
-var helloString = 'Hello world!';
+// var helloString = 'Hello world!';
 
-var hello = function hello() {
-  return helloString;
-};
+// var hello = function hello() {
+//   return helloString;
+// };
 
-module.exports = {
-  hello: hello
-}
+// module.exports = {
+//   hello: hello
+// }
 

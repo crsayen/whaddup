@@ -1,8 +1,8 @@
-const helloLib = require('../src/index')
+// const helloLib = require('../src/index')
 
-if (helloLib.hello() === 'Hello world!') {
-	console.log('All Tests have passed!');
-}
-else {
-	throw new Error('Test failed.');
-}
+// if (helloLib.hello() === 'Hello world!') {
+// 	console.log('All Tests have passed!');
+// }
+// else {
+// 	throw new Error('Test failed.');
+// }
