@@ -26,7 +26,7 @@ $ git clone https://github.com/lhmzhou/whaddup
 $ cd whaddup
 $ yarn
 or 
-$ npm
+$ npm run
 ```
 
 To run test:
