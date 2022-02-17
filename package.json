@@ -1,0 +1,25 @@
+{
+  "name": "whaddup-js",
+  "description": "an emulation of a social network application",
+  "version": "0.0.1",
+  "main": "./src/User.js",
+  "author": "lhmzhou",
+  "homepage": "https://github.com/lhmzhou/whaddup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhmzhou/whaddup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lhmzhou/whaddup/issues"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "keywords": [
+    "kata",
+    "social network"
+  ]
+}

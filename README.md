@@ -4,6 +4,36 @@
 
 To emulate a basic social network application.
 
+## Prerequisites
+
+Node >= 10.16
+npm >= 5.6 OR yarn >= 1.22.5
+
+## Troubleshooting
+
+Node JS and NPM
+
+```
+https://docs.npmjs.com/common-errors
+https://docs.npmjs.com/getting-started/troubleshooting
+```
+
+## How to Use
+
+To install:
+```
+$ git clone https://github.com/lhmzhou/whaddup
+$ cd whaddup
+$ yarn
+or 
+$ npm
+```
+
+To run test:
+```
+yarn test
+```
+
 ## Features
 
 ```
