@@ -8,6 +8,7 @@ module.exports = class Account {
     timeline = [];
     following = [];
     followers = [];
+    wall =[];
 
     follow(user) {
         this.following.push(user);
@@ -23,5 +24,18 @@ module.exports = class Account {
 
     showTimeline() {
         return this.timeline.reverse();
+    };
+
+    showWall() {
+        this.following.map(user => 
+            (user.timeline.forEach(post => {
+               if (this.wall == null || !this.wall.includes(post)) {
+                    this.wall.push(post);
+               }
+              })
+            )
+        );
+
+        return this.wall.sort((a, b) => { return b[1] - a[1] })
     };
 }
